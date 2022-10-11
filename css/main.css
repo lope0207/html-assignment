@@ -1,0 +1,53 @@
+/* My Awesome CSS */ 
+
+body {
+    background-color:pink;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+header, footer {background-color:mediumspringgreen;
+}
+
+.site-title{color:white}
+
+#my-image{box-shadow:0px 0px 2px 1px black;}
+#my-image2{box-shadow:0px 0px 2px 1px black;}
+
+.square {
+    list-style-type: square;
+}
+
+.square li:nth-child(odd){
+    background:red;
+    color:aliceblue
+}
+
+ li:nth-child{odd}::marker {
+    color: green
+ }
+
+a {
+    background-color: white;
+    color: black;
+    border: 2px blueviolet;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active{
+    background-color: green;
+    color:white;
+}
+
+.home, .notes  {
+    background-color: white;
+    color: black;
+    border: 2px blueviolet;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
